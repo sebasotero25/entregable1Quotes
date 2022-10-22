@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.card {
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px 0 20px;
+}
+.card Button {
+ 
+  cursor: pointer;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+}
+.author {
+  text-align: end;
+}
+
